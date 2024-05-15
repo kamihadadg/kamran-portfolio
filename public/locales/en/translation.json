@@ -1,0 +1,33 @@
+{
+  "welcome": "Welcome to My Portfolio",
+  "home": "Home",
+  "about": "About",
+  "projects": "Projects",
+  "contact": "Contact",
+  "name": "Kamran Hadad",
+  "title": "Full Stack Developer",
+  "bio": "I am a passionate full stack developer with experience in React, Node.js, and more. I love building web applications and exploring new technologies.",
+  "contact_me": "Contact Me",
+  "project1_title": "Project One",
+  "project1_description": "Description for project one.",
+  "project2_title": "Project Two",
+  "project2_description": "Description for project two.",
+  "project3_title": "Project Three",
+  "project3_description": "Description for project three.",
+  "view_project": "View Project",
+  "follow_me": "Follow Me",
+  
+
+  "contact_intro": "If you have any questions or suggestions, please contact us.",
+  "your_name": "Your Name",
+  "your_email": "Your Email",
+  "message": "Message",
+  "my_details": "My Details",
+  "full_name": "Full Name",
+  "email": "Email",
+  "phone": "Phone",
+  "send_message": "Send Message",
+
+  "about_full_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at tellus id libero aliquam tristique. Cras interdum nulla nec quam lacinia, non suscipit ligula consectetur. Pellentesque ac mi vitae magna facilisis bibendum. Ut non ipsum eget dui eleifend volutpat."
+
+}

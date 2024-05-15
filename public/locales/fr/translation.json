@@ -1,0 +1,19 @@
+{
+  "welcome": "Bienvenue sur mon portfolio",
+  "home": "Accueil",
+  "about": "À propos de moi",
+  "projects": "Projets",
+  "contact": "Contact",
+  "name": "Kamran Hadad",
+  "title": "Développeur Full Stack",
+  "bio": "Je suis un développeur full stack passionné avec de l'expérience en React, Node.js, et plus encore. J'adore construire des applications web et explorer de nouvelles technologies.",
+  "contact_me": "Contactez-moi",
+  "project1_title": "Projet Un",
+  "project1_description": "Description pour le projet un.",
+  "project2_title": "Projet Deux",
+  "project2_description": "Description pour le projet deux.",
+  "project3_title": "Projet Trois",
+  "project3_description": "Description pour le projet trois.",
+  "view_project": "Voir le projet",
+  "follow_me": "Suivez-moi"
+}

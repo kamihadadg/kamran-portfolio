@@ -1,0 +1,34 @@
+{
+  "welcome": "Portföyüme hoş geldiniz",
+  "home": "Ana Sayfa",
+  "about": "Hakkımda",
+  "projects": "Projeler",
+  "contact": "İletişim",
+  "name": "Kamran Hadad",
+  "title": "Tam Yığın Geliştirici",
+  "bio": "Ben, React, Node.js ve daha fazlasında deneyimli tutkulu bir tam yığın geliştiriciyim. Web uygulamaları oluşturmayı ve yeni teknolojileri keşfetmeyi seviyorum.",
+  "contact_me": "Benimle iletişime geçin",
+  "project1_title": "Proje Bir",
+  "project1_description": "Proje bir için açıklama.",
+  "project2_title": "Proje İki",
+  "project2_description": "Proje iki için açıklama.",
+  "project3_title": "Proje Üç",
+  "project3_description": "Proje üç için açıklama.",
+  "view_project": "Projeyi Görüntüle",
+  "follow_me": "Beni Takip Et",
+
+
+  "contact_intro": "Herhangi bir sorunuz veya öneriniz varsa, lütfen bizimle iletişime geçin.",
+  "your_name": "Adınız",
+  "your_email": "E-posta adresiniz",
+  "message": "Mesaj",
+  "my_details": "Benim Detaylarım",
+  "full_name": "Tam Adı",
+  "email": "E-posta",
+  "phone": "Telefon",
+  "send_message": "Mesaj Gönder",
+
+  "about_full_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at tellus id libero aliquam tristique. Cras interdum nulla nec quam lacinia, non suscipit ligula consectetur. Pellentesque ac mi vitae magna facilisis bibendum. Ut non ipsum eget dui eleifend volutpat."
+  
+  
+}

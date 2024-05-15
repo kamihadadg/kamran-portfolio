@@ -3,9 +3,13 @@ import { Typography, Container, Grid, TextField, Button } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
+    <div style={{
+      direction: i18n.language === 'fa' ? 'rtl' : 'ltr',
+      fontFamily: i18n.language === 'fa' ? 'Calibri' : 'Helvetica'
+    }}>
     <Container>
       <Typography variant="h4">{t('contact')}</Typography>
       <Typography variant="body1">
@@ -44,9 +48,9 @@ const Contact = () => {
             {t('my_details')}
           </Typography>
           <Typography variant="body2">
-            {t('full_name')}: John Doe <br />
-            {t('email')}: johndoe@example.com <br />
-            {t('phone')}: +1234567890
+            {t('full_name')}: Kamran Hadad Marandi <br />
+            {t('email')}: kamihadad@gmail.com <br />
+            {t('phone')}: +98 912 471 8227
           </Typography>
         </Grid>
         <Grid item xs={12}>
@@ -56,6 +60,7 @@ const Contact = () => {
         </Grid>
       </Grid>
     </Container>
+    </div>
   );
 };
 

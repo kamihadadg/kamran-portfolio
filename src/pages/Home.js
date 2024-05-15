@@ -5,10 +5,14 @@ import { Link } from 'react-router-dom';
 import profilePic from '../assets/profile.jpg'; // مسیر عکس پروفایل
 
 const Home = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
-    <Container>
+    <div style={{
+      direction: i18n.language === 'fa' ? 'rtl' : 'ltr',
+      fontFamily: i18n.language === 'fa' ? 'Roboto' : 'Helvetica'
+    }}>
+   <Container>
       {/* بخش معرفی */}
       <Grid container spacing={3} alignItems="center" justify="center" style={{ marginTop: '20px' }}>
         <Grid item xs={12} md={4}>
@@ -74,6 +78,7 @@ const Home = () => {
         </Button> */}
       </Box>
     </Container>
+    </div>
   );
 };
 

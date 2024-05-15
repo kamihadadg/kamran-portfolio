@@ -7,23 +7,24 @@ const Navigation = () => {
   const { t, i18n } = useTranslation();
 
   useEffect(() => {
-    const storedLanguage = localStorage.getItem('language');
-    if (storedLanguage) {
-      i18n.changeLanguage(storedLanguage);
-    } else {
+
       // Set default language if none is stored
       i18n.changeLanguage('en'); // or your desired default language
-    }
+
   }, []); // Run only once on component mount
 
   
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
-    localStorage.setItem('language', lng); // Store selected language in localStorage
+    
   };
 
   return (
+    <div style={{
+      direction: i18n.language === 'fa' ? 'rtl' : 'ltr',
+      fontFamily: i18n.language === 'fa' ? 'Calibri' : 'Helvetica'
+    }}>
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h6" style={{ flexGrow: 1 }}>
@@ -49,6 +50,7 @@ const Navigation = () => {
         </Box>
       </Toolbar>
     </AppBar>
+    </div>
   );
 };
 

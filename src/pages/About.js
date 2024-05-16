@@ -1,6 +1,7 @@
 import React from 'react';
 import { Typography, Container } from '@mui/material';
 import { useTranslation } from 'react-i18next';
+import SocialMedia from '../components/SocialMedia';
 
 
 const About = () => {
@@ -18,6 +19,7 @@ const About = () => {
       <Typography variant="body1">
         {t('about_full_text')}
       </Typography>
+      <SocialMedia/>
     </Container>
     </div>
   );

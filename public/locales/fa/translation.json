@@ -6,7 +6,7 @@
   "contact": "تماس با من",
   "name": "کامران حداد",
   "title": "توسعه‌دهنده تمام‌ستاک",
-  "bio": "من یک توسعه‌دهنده تمام‌ستاک مشتاق با تجربه در React، Node.js و موارد دیگر هستم. عاشق ساختن برنامه‌های وب و کشف فناوری‌های جدید هستم.",
+  "bio": "با 18 سال تجربه در زمینه برنامه‌نویسی و پروژه‌های تیمی و فردی، طراحی نرم‌افزارهای سفارشی با استفاده از آخرین ابزارها و فناوری‌ها به روش تحلیل و برنامه‌ریزی تجارت هوش مصنوعی (BI) برای صنایع بانکی، بازرگانی، تولیدی و پرورش دام و طیور. همچنین، علاقه‌مند به توسعه نرم‌افزارهای تحت وب با تکنولوژی‌هایی از قبیل React و Node.js هستم و به دنبال کشف فناوری‌های جدید می‌باشم. من عاشق ایجاد برنامه‌های وب هستم و لذت می‌برم از کاوش در فناوری‌های جدید.",
   "contact_me": "تماس با من",
   "project1_title": "پروژه یک",
   "project1_description": "توضیحات برای پروژه یک.",
@@ -26,9 +26,63 @@
   "email": "ایمیل",
   "phone": "تلفن",
   "send_message": "ارسال پیام",
-  "about_full_text": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد."
+  "about_full_text": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.",
+  "download_resume": "دانلود رزومه",
+  "technologies":"تکنولوژی",
+  "project_data": [
+    {
+      "title": "پروژه 1",
+      "description": "توضیحات پروژه 1.",
+      "link": "https://github.com/your-username/project1"
+    },
+    {
+      "title": "پروژه 2",
+      "description": "توضیحات پروژه 2.",
+      "link": "https://github.com/your-username/project2"
+    }
+    ,
+    {
+      "title": "پروژه 3",
+      "description": "توضیحات پروژه 3.",
+      "link": "https://github.com/your-username/project3"
+    }
+  ],
+  "customer_data": [
+    {
+      "name": "مشتری 1",
+      "description": "توضیحات مشتری 1.",
+      "link": "https://example.com/customer1"
+    },
+    {
+      "name": "مشتری 2",
+      "description": "توضیحات مشتری 2.",
+      "link": "https://example.com/customer2"
+    }
+    ,
+    {
+      "name": "مشتری 3",
+      "description": "توضیحات مشتری 3.",
+      "link": "https://example.com/customer3"
+    }
+  ],
+  "tech_data": [
+    {
+      "name": "React",
+      "description": "A JavaScript library for building user interfaces.",
+      "link": "https://reactjs.org/"
+    },
+    {
+      "name": "Node.js",
+      "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine.",
+      "link": "https://nodejs.org/"
+    },
+    {
+      "name": "TypeScript",
+      "description": "A typed superset of JavaScript that compiles to plain JavaScript.",
+      "link": "https://www.typescriptlang.org/"
+    }
+  ]
 
-  
   
   
 }

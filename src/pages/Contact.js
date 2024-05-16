@@ -1,6 +1,7 @@
 import React from 'react';
 import { Typography, Container, Grid, TextField, Button } from '@mui/material';
 import { useTranslation } from 'react-i18next';
+import SocialMedia from '../components/SocialMedia';
 
 const Contact = () => {
   const { t, i18n } = useTranslation();
@@ -59,6 +60,7 @@ const Contact = () => {
           </Button>
         </Grid>
       </Grid>
+      <SocialMedia/>
     </Container>
     </div>
   );

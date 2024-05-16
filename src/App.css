@@ -6,12 +6,7 @@
   height: 40vmin;
   pointer-events: none;
 }
-body:lang(fa) {
-  font-family: 'IranSans', sans-serif;
-}
-body:lang(fa) {
-  direction: rtl;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

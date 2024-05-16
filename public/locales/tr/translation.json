@@ -6,7 +6,7 @@
   "contact": "İletişim",
   "name": "Kamran Hadad",
   "title": "Tam Yığın Geliştirici",
-  "bio": "Ben, React, Node.js ve daha fazlasında deneyimli tutkulu bir tam yığın geliştiriciyim. Web uygulamaları oluşturmayı ve yeni teknolojileri keşfetmeyi seviyorum.",
+  "bio": "18 yıllık yazılım geliştirme ve takım ve bireysel projelerde deneyimimle, bankacılık, ticaret, üretim ve hayvancılık ve kümes hayvancılığı gibi sektörler için yapay zeka iş zekası (BI) yöntemiyle son teknoloji araçlarını kullanarak özel yazılımlar tasarlarım. Ayrıca React ve Node.js gibi teknolojilerle web uygulamaları geliştirmekten ve yeni teknolojiler keşfetmekten keyif alıyorum. Web uygulamaları oluşturmayı seviyorum ve yeni teknolojileri keşfetmekten zevk alıyorum.",
   "contact_me": "Benimle iletişime geçin",
   "project1_title": "Proje Bir",
   "project1_description": "Proje bir için açıklama.",
@@ -27,8 +27,61 @@
   "email": "E-posta",
   "phone": "Telefon",
   "send_message": "Mesaj Gönder",
-
+  "technologies":"Technologies",
   "about_full_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at tellus id libero aliquam tristique. Cras interdum nulla nec quam lacinia, non suscipit ligula consectetur. Pellentesque ac mi vitae magna facilisis bibendum. Ut non ipsum eget dui eleifend volutpat."
-  
+  , "download_resume": "Özgeçmişi İndir"
+
+,
+  "project_data": [
+    {
+      "title": "Proje 1",
+      "description": "Proje 1'in açıklaması.",
+      "link": "https://github.com/your-username/project1"
+    },
+    {
+      "title": "Proje 2",
+      "description": "Proje 2'nin açıklaması.",
+      "link": "https://github.com/your-username/project2"
+    },
+    {
+      "title": "Proje 3",
+      "description": "Proje 3'ün açıklaması.",
+      "link": "https://github.com/your-username/project3"
+    }
+  ],
+  "customer_data": [
+    {
+      "name": "Müşteri 1",
+      "description": "Müşteri 1'in açıklaması.",
+      "link": "https://example.com/customer1"
+    },
+    {
+      "name": "Müşteri 2",
+      "description": "Müşteri 2'nin açıklaması.",
+      "link": "https://example.com/customer2"
+    },
+    {
+      "name": "Müşteri 3",
+      "description": "Müşteri 3'ün açıklaması.",
+      "link": "https://example.com/customer3"
+    }
+  ],
+  "tech_data": [
+    {
+      "name": "React",
+      "description": "A JavaScript library for building user interfaces.",
+      "link": "https://reactjs.org/"
+    },
+    {
+      "name": "Node.js",
+      "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine.",
+      "link": "https://nodejs.org/"
+    },
+    {
+      "name": "TypeScript",
+      "description": "A typed superset of JavaScript that compiles to plain JavaScript.",
+      "link": "https://www.typescriptlang.org/"
+    }
+  ]
   
 }

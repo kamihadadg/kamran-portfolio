@@ -3,12 +3,12 @@ import { Typography, Container, Grid, Paper, Button, Box, Avatar } from '@mui/ma
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import SocialMedia from '../components/SocialMedia';
-const Projects = () => {
+const Customers = () => {
   
   const { t, i18n } = useTranslation();
 
-  const projects = t('project_data', { returnObjects: true });
 
+  const customers = t('customer_data', { returnObjects: true });
 
   return (
     <div style={{
@@ -16,33 +16,32 @@ const Projects = () => {
       fontFamily: i18n.language === 'fa' ? 'Roboto' : 'Helvetica'
     }}>
       <Container>
-   
-        {/* بخش پروژه‌ها */}
+
+        {/* بخش مشتریان */}
         <Typography variant="h4" align="center" gutterBottom style={{ marginTop: '40px' }}>
-          {t('projects')}
+          {t('customers')}
         </Typography>
         <Grid container spacing={3}>
-          {projects.map((project, index) => (
+          {customers.map((customer, index) => (
             <Grid item xs={12} md={4} key={index}>
               <Paper elevation={3} style={{ padding: '20px' }}>
-                <Typography variant="h6">{project.title}</Typography>
-                <Typography variant="body1">{project.description}</Typography>
-                <Button color="primary" component="a" href={project.link}>
-                  {t('view_project')}
+                <Typography variant="h6">{customer.name}</Typography>
+                <Typography variant="body1">{customer.description}</Typography>
+                <Button color="primary" component="a" href={customer.link}>
+                  {t('view_customer')}
                 </Button>
               </Paper>
             </Grid>
           ))}
         </Grid>
 
-
-          <SocialMedia/>
+        <SocialMedia/>
       </Container>
     </div>
   );
 };
 
-export default Projects;
+export default Customers;
 
 
 

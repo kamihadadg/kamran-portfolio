@@ -1,13 +1,13 @@
 {
-  "welcome": "Portföyüme hoş geldiniz",
+  "welcome": "Portföyüme Hoş Geldiniz",
   "home": "Ana Sayfa",
   "about": "Hakkımda",
   "projects": "Projeler",
   "contact": "İletişim",
   "name": "Kamran Hadad",
-  "title": "Tam Yığın Geliştirici",
-  "bio": "18 yıllık yazılım geliştirme ve takım ve bireysel projelerde deneyimimle, bankacılık, ticaret, üretim ve hayvancılık ve kümes hayvancılığı gibi sektörler için yapay zeka iş zekası (BI) yöntemiyle son teknoloji araçlarını kullanarak özel yazılımlar tasarlarım. Ayrıca React ve Node.js gibi teknolojilerle web uygulamaları geliştirmekten ve yeni teknolojiler keşfetmekten keyif alıyorum. Web uygulamaları oluşturmayı seviyorum ve yeni teknolojileri keşfetmekten zevk alıyorum.",
-  "contact_me": "Benimle iletişime geçin",
+  "title": "Full Stack Geliştirici",
+  "bio": "Programlama ve ekip ve bireysel projelerde 18 yıllık deneyime sahip olarak, bankacılık, ticaret, üretim ve hayvancılık sektörleri için iş zekası (BI) yaklaşımıyla en son araç ve teknolojileri kullanarak özel yazılım tasarlıyorum. Ayrıca, React ve Node.js gibi teknolojileri kullanarak web uygulamaları geliştirmekten ve yeni teknolojileri keşfetmekten keyif alıyorum. Web uygulamaları oluşturmayı seviyorum ve yeni teknolojileri keşfetmekten zevk alıyorum.",
+  "contact_me": "Benimle İletişime Geçin",
   "project1_title": "Proje Bir",
   "project1_description": "Proje bir için açıklama.",
   "project2_title": "Proje İki",
@@ -17,71 +17,71 @@
   "view_project": "Projeyi Görüntüle",
   "follow_me": "Beni Takip Et",
 
-
-  "contact_intro": "Herhangi bir sorunuz veya öneriniz varsa, lütfen bizimle iletişime geçin.",
+  "contact_intro": "Herhangi bir sorunuz veya öneriniz varsa, lütfen bize ulaşın.",
   "your_name": "Adınız",
-  "your_email": "E-posta adresiniz",
+  "your_email": "E-posta Adresiniz",
   "message": "Mesaj",
-  "my_details": "Benim Detaylarım",
-  "full_name": "Tam Adı",
+  "my_details": "Detaylarım",
+  "full_name": "Tam Ad",
   "email": "E-posta",
   "phone": "Telefon",
   "send_message": "Mesaj Gönder",
-  "technologies":"Technologies",
-  "about_full_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at tellus id libero aliquam tristique. Cras interdum nulla nec quam lacinia, non suscipit ligula consectetur. Pellentesque ac mi vitae magna facilisis bibendum. Ut non ipsum eget dui eleifend volutpat."
-  , "download_resume": "Özgeçmişi İndir"
+  "technologies": "Teknolojiler",
+  "about_full_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at tellus id libero aliquam tristique. Cras interdum nulla nec quam lacinia, non suscipit ligula consectetur. Pellentesque ac mi vitae magna facilisis bibendum. Ut non ipsum eget dui eleifend volutpat.",
+  "download_resume": "CV İndir",
 
-,
-  "project_data": [
+  "Educate": "Eğitim",
+  "Customers": "Müşteriler"
+
+  ,"project_data": [
     {
       "title": "Proje 1",
       "description": "Proje 1'in açıklaması.",
-      "link": "https://github.com/your-username/project1"
+      "link": "https://github.com/kullanici-adi/proje1"
     },
     {
       "title": "Proje 2",
       "description": "Proje 2'nin açıklaması.",
-      "link": "https://github.com/your-username/project2"
+      "link": "https://github.com/kullanici-adi/proje2"
     },
     {
       "title": "Proje 3",
       "description": "Proje 3'ün açıklaması.",
-      "link": "https://github.com/your-username/project3"
+      "link": "https://github.com/kullanici-adi/proje3"
     }
   ],
   "customer_data": [
     {
       "name": "Müşteri 1",
       "description": "Müşteri 1'in açıklaması.",
-      "link": "https://example.com/customer1"
+      "link": "https://example.com/musteri1"
     },
     {
       "name": "Müşteri 2",
-      "description": "Müşteri 2'nin açıklaması.",
-      "link": "https://example.com/customer2"
+      "description": "Müşteri 2'in açıklaması.",
+      "link": "https://example.com/musteri2"
     },
     {
       "name": "Müşteri 3",
       "description": "Müşteri 3'ün açıklaması.",
-      "link": "https://example.com/customer3"
+      "link": "https://example.com/musteri3"
     }
   ],
   "tech_data": [
     {
       "name": "React",
-      "description": "A JavaScript library for building user interfaces.",
+      "description": "Kullanıcı arayüzleri oluşturmak için bir JavaScript kütüphanesi",
       "link": "https://reactjs.org/"
     },
     {
       "name": "Node.js",
-      "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine.",
+      "description": "Chrome'un V8 JavaScript motoruna dayalı bir JavaScript çalışma zamanı",
       "link": "https://nodejs.org/"
     },
     {
-      "name": "TypeScript",
-      "description": "A typed superset of JavaScript that compiles to plain JavaScript.",
-      "link": "https://www.typescriptlang.org/"
+      "name": "GraphQL",
+      "description": "API'niz için bir sorgu dili",
+      "link": "https://graphql.org/"
     }
   ]
-  
 }

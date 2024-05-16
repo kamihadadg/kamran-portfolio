@@ -11,8 +11,11 @@ import SocialMedia from '../components/SocialMedia';
 const Home = () => {
   const { t, i18n } = useTranslation();
 
-  const technologies = t('tech_data', { returnObjects: true });
-  
+  const tech_data = t('tech_data', { returnObjects: true });
+  if (!Array.isArray(tech_data)) {
+    console.error("Expected tech_data to be an array but got:", tech_data);
+    return null; // یا می‌توانید یک مقدار پیش‌فرض تنظیم کنید
+  }
 
   return (
     <div style={{
@@ -43,7 +46,7 @@ const Home = () => {
           {t('technologies')}
         </Typography>
         <Grid container spacing={3}>
-          {technologies.map((tech, index) => (
+          {tech_data.map((tech, index) => (
             <Grid item xs={12} md={4} key={index}>
               <Paper elevation={3} style={{ padding: '20px' }}>
                 <Typography variant="h6">{tech.name}</Typography>

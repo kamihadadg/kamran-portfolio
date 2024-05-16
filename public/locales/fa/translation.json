@@ -68,18 +68,18 @@
   "tech_data": [
     {
       "name": "React",
-      "description": "A JavaScript library for building user interfaces.",
+      "description": "A JavaScript library for building user interfaces",
       "link": "https://reactjs.org/"
     },
     {
       "name": "Node.js",
-      "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine.",
+      "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine",
       "link": "https://nodejs.org/"
     },
     {
-      "name": "TypeScript",
-      "description": "A typed superset of JavaScript that compiles to plain JavaScript.",
-      "link": "https://www.typescriptlang.org/"
+      "name": "GraphQL",
+      "description": "A query language for your API",
+      "link": "https://graphql.org/"
     }
   ]
 

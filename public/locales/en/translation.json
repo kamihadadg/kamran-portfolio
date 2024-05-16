@@ -30,8 +30,9 @@
 "technologies":"Technologies",
   "about_full_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at tellus id libero aliquam tristique. Cras interdum nulla nec quam lacinia, non suscipit ligula consectetur. Pellentesque ac mi vitae magna facilisis bibendum. Ut non ipsum eget dui eleifend volutpat."
  ,"download_resume": "Download Resume"
-,
-  "project_data": [
+ 
+ 
+ , "project_data": [
     {
       "title": "Project 1",
       "description": "Description of project 1.",
@@ -68,20 +69,19 @@
   "tech_data": [
     {
       "name": "React",
-      "description": "A JavaScript library for building user interfaces.",
+      "description": "A JavaScript library for building user interfaces",
       "link": "https://reactjs.org/"
     },
     {
       "name": "Node.js",
-      "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine.",
+      "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine",
       "link": "https://nodejs.org/"
     },
     {
-      "name": "TypeScript",
-      "description": "A typed superset of JavaScript that compiles to plain JavaScript.",
-      "link": "https://www.typescriptlang.org/"
+      "name": "GraphQL",
+      "description": "A query language for your API",
+      "link": "https://graphql.org/"
     }
-
   ]
 
 

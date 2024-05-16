@@ -38,7 +38,7 @@ const Navigation = () => {
             <Button color="inherit" component={Link} to="/Educate">{t('Educate')}</Button>
             <Button color="inherit" component={Link} to="/projects">{t('projects')}</Button>
             <Button color="inherit" component={Link} to="/Customers">{t('Customers')}</Button>
-            <Button color="inherit" component={Link} to="/about">{t('about')}</Button>
+            {/* <Button color="inherit" component={Link} to="/about">{t('about')}</Button> */}
             <Button color="inherit" component={Link} to="/contact">{t('contact')}</Button>
             <Select 
               labelId="language-select-label"

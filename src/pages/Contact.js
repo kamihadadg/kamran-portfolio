@@ -49,9 +49,11 @@ const Contact = () => {
             {t('my_details')}
           </Typography>
           <Typography variant="body2">
-            {t('full_name')}: Kamran Hadad Marandi <br />
+            <h3>{t('full_name')}: Kamran Hadad Marandi <br />
+              
             {t('email')}: kamihadad@gmail.com <br />
             {t('phone')}: +98 912 471 8227
+            </h3>
           </Typography>
         </Grid>
         <Grid item xs={12}>

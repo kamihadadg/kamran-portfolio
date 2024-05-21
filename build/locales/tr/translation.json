@@ -1,0 +1,87 @@
+{
+  "welcome": "Portföyüme Hoş Geldiniz",
+  "home": "Ana Sayfa",
+  "about": "Hakkımda",
+  "projects": "Projeler",
+  "contact": "İletişim",
+  "name": "Kamran Hadad",
+  "title": "Full Stack Geliştirici",
+  "bio": "Programlama ve ekip ve bireysel projelerde 18 yıllık deneyime sahip olarak, bankacılık, ticaret, üretim ve hayvancılık sektörleri için iş zekası (BI) yaklaşımıyla en son araç ve teknolojileri kullanarak özel yazılım tasarlıyorum. Ayrıca, React ve Node.js gibi teknolojileri kullanarak web uygulamaları geliştirmekten ve yeni teknolojileri keşfetmekten keyif alıyorum. Web uygulamaları oluşturmayı seviyorum ve yeni teknolojileri keşfetmekten zevk alıyorum.",
+  "contact_me": "Benimle İletişime Geçin",
+  "project1_title": "Proje Bir",
+  "project1_description": "Proje bir için açıklama.",
+  "project2_title": "Proje İki",
+  "project2_description": "Proje iki için açıklama.",
+  "project3_title": "Proje Üç",
+  "project3_description": "Proje üç için açıklama.",
+  "view_project": "Projeyi Görüntüle",
+  "follow_me": "Beni Takip Et",
+
+  "contact_intro": "Herhangi bir sorunuz veya öneriniz varsa, lütfen bize ulaşın.",
+  "your_name": "Adınız",
+  "your_email": "E-posta Adresiniz",
+  "message": "Mesaj",
+  "my_details": "Detaylarım",
+  "full_name": "Tam Ad",
+  "email": "E-posta",
+  "phone": "Telefon",
+  "send_message": "Mesaj Gönder",
+  "technologies": "Teknolojiler",
+  "about_full_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at tellus id libero aliquam tristique. Cras interdum nulla nec quam lacinia, non suscipit ligula consectetur. Pellentesque ac mi vitae magna facilisis bibendum. Ut non ipsum eget dui eleifend volutpat.",
+  "download_resume": "CV İndir",
+
+  "Educate": "Eğitim",
+  "Customers": "Müşteriler"
+
+  ,"project_data": [
+    {
+      "title": "Proje 1",
+      "description": "Proje 1'in açıklaması.",
+      "link": "https://github.com/kullanici-adi/proje1"
+    },
+    {
+      "title": "Proje 2",
+      "description": "Proje 2'nin açıklaması.",
+      "link": "https://github.com/kullanici-adi/proje2"
+    },
+    {
+      "title": "Proje 3",
+      "description": "Proje 3'ün açıklaması.",
+      "link": "https://github.com/kullanici-adi/proje3"
+    }
+  ],
+  "customer_data": [
+    {
+      "name": "Müşteri 1",
+      "description": "Müşteri 1'in açıklaması.",
+      "link": "https://example.com/musteri1"
+    },
+    {
+      "name": "Müşteri 2",
+      "description": "Müşteri 2'in açıklaması.",
+      "link": "https://example.com/musteri2"
+    },
+    {
+      "name": "Müşteri 3",
+      "description": "Müşteri 3'ün açıklaması.",
+      "link": "https://example.com/musteri3"
+    }
+  ],
+  "tech_data": [
+    {
+      "name": "React",
+      "description": "Kullanıcı arayüzleri oluşturmak için bir JavaScript kütüphanesi",
+      "link": "https://reactjs.org/"
+    },
+    {
+      "name": "Node.js",
+      "description": "Chrome'un V8 JavaScript motoruna dayalı bir JavaScript çalışma zamanı",
+      "link": "https://nodejs.org/"
+    },
+    {
+      "name": "GraphQL",
+      "description": "API'niz için bir sorgu dili",
+      "link": "https://graphql.org/"
+    }
+  ]
+}

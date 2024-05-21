@@ -1,0 +1,93 @@
+{
+  "welcome": "Welcome to My Portfolio",
+  "home": "Home",
+  "about": "About",
+  "projects": "Projects",
+  "contact": "Contact",
+  "name": "Kamran Hadad",
+  "title": "Full Stack Developer",
+  "bio": "ٌWith 18 years of experience in programming and team and individual projects, I design custom software using the latest tools and technologies with a business intelligence (BI) approach for banking, commerce, production, and livestock and poultry industries. Additionally, I'm passionate about developing web applications using technologies such as React and Node.js and I enjoy exploring new technologies. I love creating web applications and I take pleasure in exploring new technologies. ",
+  "contact_me": "Contact Me",
+  "project1_title": "Project One",
+  "project1_description": "Description for project one.",
+  "project2_title": "Project Two",
+  "project2_description": "Description for project two.",
+  "project3_title": "Project Three",
+  "project3_description": "Description for project three.",
+  "view_project": "View Project",
+  "follow_me": "Follow Me",
+  
+
+  "contact_intro": "If you have any questions or suggestions, please contact us.",
+  "your_name": "Your Name",
+  "your_email": "Your Email",
+  "message": "Message",
+  "my_details": "My Details",
+  "full_name": "Full Name",
+  "email": "Email",
+  "phone": "Phone",
+  "send_message": "Send Message",
+"technologies":"Technologies",
+  "about_full_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at tellus id libero aliquam tristique. Cras interdum nulla nec quam lacinia, non suscipit ligula consectetur. Pellentesque ac mi vitae magna facilisis bibendum. Ut non ipsum eget dui eleifend volutpat."
+ ,"download_resume": "Download Resume"
+ 
+ 
+,"Educate":"Educate"
+,"Customers":"Customers"
+
+
+
+ , "project_data": [
+    {
+      "title": "Project 1",
+      "description": "Description of project 1.",
+      "link": "https://github.com/your-username/project1"
+    },
+    {
+      "title": "Project 2",
+      "description": "Description of project 2.",
+      "link": "https://github.com/your-username/project2"
+    },
+    {
+      "title": "Project 3",
+      "description": "Description of project 3.",
+      "link": "https://github.com/your-username/project3"
+    }
+  ],
+  "customer_data": [
+    {
+      "name": "Customer 1",
+      "description": "Description of customer 1.",
+      "link": "https://example.com/customer1"
+    },
+    {
+      "name": "Customer 2",
+      "description": "Description of customer 2.",
+      "link": "https://example.com/customer2"
+    },
+    {
+      "name": "Customer 3",
+      "description": "Description of customer 3.",
+      "link": "https://example.com/customer3"
+    }
+  ],
+  "tech_data": [
+    {
+      "name": "React",
+      "description": "A JavaScript library for building user interfaces",
+      "link": "https://reactjs.org/"
+    },
+    {
+      "name": "Node.js",
+      "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine",
+      "link": "https://nodejs.org/"
+    },
+    {
+      "name": "GraphQL",
+      "description": "A query language for your API",
+      "link": "https://graphql.org/"
+    }
+  ]
+
+
+}

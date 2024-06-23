@@ -52,7 +52,7 @@ const Home = () => {
                 <Typography variant="h6">{tech.name}</Typography>
                 <Typography variant="body1">{tech.description}</Typography>
                 <Button color="primary" component="a" href={tech.link}>
-                khfvb,ksdfjgbklsadrngvldb;lkdnlb/kndb;lmndf;.bmb
+           
                   {t('view_project')}
                 </Button>
               </Paper>

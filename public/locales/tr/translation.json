@@ -6,7 +6,7 @@
   "contact": "İletişim",
   "name": "Kamran Hadad",
   "title": "Full Stack Geliştirici",
-  "bio": "Programlama ve ekip ve bireysel projelerde 18 yıllık deneyime sahip olarak, bankacılık, ticaret, üretim ve hayvancılık sektörleri için iş zekası (BI) yaklaşımıyla en son araç ve teknolojileri kullanarak özel yazılım tasarlıyorum. Ayrıca, React ve Node.js gibi teknolojileri kullanarak web uygulamaları geliştirmekten ve yeni teknolojileri keşfetmekten keyif alıyorum. Web uygulamaları oluşturmayı seviyorum ve yeni teknolojileri keşfetmekten zevk alıyorum.",
+  "bio": "21 yıl önce Lisans diploması aldım. Mezuniyetten iki yıl önce, programlama dünyasıyla tanıştım ve Delphi ve SQL kullanarak projeler üzerinde çalışmaya başladım. Sonraki 15 yıl boyunca muhasebe sistemleri, envanter yönetimi ve deri üretimi ile tekstil fabrikalarının otomasyonu gibi çeşitli projelerde çalıştım. Daha sonra Python ve JavaScript’e geçiş yaptım ve şimdi tüm projelerimi PostgreSQL, Node.js, Python ve React kullanarak tasarlıyorum. Ayrıca Power BI, SSRS ve QlikView gibi veri analiz araçlarıyla profesyonel deneyimim var.Kariyerim boyunca, programcı, yazılım üretim yöneticisi ve IT yöneticisi gibi çeşitli pozisyonlarda görev aldım. Son zamanlarda yapay zeka, özellikle ChatGPT ile tanıştım ve bu, öğrenme hızımı ve ürün geliştirme süreçlerimi önemli ölçüde artırdı. Ayrıca, blockchain ve yapay zeka alanlarına büyük ilgi duymaktayım.",
   "contact_me": "Benimle İletişime Geçin",
   "project1_title": "Proje Bir",
   "project1_description": "Proje bir için açıklama.",
@@ -69,19 +69,19 @@
   ],
   "tech_data": [
     {
-      "name": "React",
-      "description": "Kullanıcı arayüzleri oluşturmak için bir JavaScript kütüphanesi",
-      "link": "https://reactjs.org/"
+      "name": "Database",
+      "description": "MSSQL, Postgres, Redis",
+      "link": ""
     },
     {
-      "name": "Node.js",
-      "description": "Chrome'un V8 JavaScript motoruna dayalı bir JavaScript çalışma zamanı",
+      "name": "Backend ",
+      "description": "Node.js, Python",
       "link": "https://nodejs.org/"
     },
     {
-      "name": "GraphQL",
-      "description": "API'niz için bir sorgu dili",
-      "link": "https://graphql.org/"
+      "name": "Data Analyse",
+      "description": "SSRS, PowerBI",
+      "link": ""
     }
   ]
 }

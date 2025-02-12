@@ -1,14 +1,36 @@
 import React from 'react';
-import { Typography, Container, Grid, Paper, Button, Box, Avatar } from '@mui/material';
+import { Typography, Container, Grid, Paper, Button, Box } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import SocialMedia from '../components/SocialMedia';
+
 const Customers = () => {
   
   const { t, i18n } = useTranslation();
 
-
-  const customers = t('customer_data', { returnObjects: true });
+  // Adding customers
+  const customers = [
+    {
+      name: "Mofid Leather",
+      description: "A leather factory with extensive experience in producing high-quality leather.",
+      link: "/mofid-leather"
+    },
+    {
+      name: "Mohajer Leather",
+      description: "One of the pioneers in the leather industry using modern technologies.",
+      link: "/mohajer-leather"
+    },
+    {
+      name: "Bank Karafarin Exchange",
+      description: "A reputable exchange with excellent services in currency trading.",
+      link: "/bank-karafarin-exchange"
+    },
+    {
+      name: "Saye Transportation Institute",
+      description: "A reputable institute in the field of transportation and goods delivery.",
+      link: "/saye-transportation"
+    }
+  ];
 
   return (
     <div style={{
@@ -17,7 +39,7 @@ const Customers = () => {
     }}>
       <Container>
 
-        {/* بخش مشتریان */}
+        {/* Customers Section */}
         <Typography variant="h4" align="center" gutterBottom style={{ marginTop: '40px' }}>
           {t('customers')}
         </Typography>
@@ -25,7 +47,7 @@ const Customers = () => {
           {customers.map((customer, index) => (
             <Grid item xs={12} md={4} key={index}>
               <Paper elevation={3} style={{ padding: '20px' }}>
-                <Typography variant="h6">{customer.name}</Typography>
+                <Typography variant="h6" style={{ fontSize: '24px', fontWeight: 'bold' }}>{customer.name}</Typography>
                 <Typography variant="body1">{customer.description}</Typography>
                 <Button color="primary" component="a" href={customer.link}>
                   {t('view_customer')}
@@ -42,6 +64,3 @@ const Customers = () => {
 };
 
 export default Customers;
-
-
-

@@ -6,7 +6,7 @@
   "contact": "Contact",
   "name": "Kamran Hadad MARANDI",
   "title": "Full Stack Developer",
-  "bio": "ٌWith 18 years of experience in programming and team and individual projects, I design custom software using the latest tools and technologies with a business intelligence (BI) approach for banking, commerce, production, and livestock and poultry industries. Additionally, I'm passionate about developing web applications using technologies such as React and Node.js and I enjoy exploring new technologies. I love creating web applications and I take pleasure in exploring new technologies. ",
+  "bio": "ٌI graduated with a Bachelor's degree 21 years ago. Two years before graduating, I was introduced to the world of programming and began working on projects using Delphi and SQL. Over the next 15 years, I worked on various projects, including accounting systems, inventory management, and automation of leather manufacturing and textile factories.Later, I shifted to Python and JavaScript, and now I design all my projects using PostgreSQL, Node.js, Python, and React. I also have professional experience with data analysis tools such as Power BI, SSRS, and QlikView.Throughout my career, I have held various positions, including programmer, software production manager, and IT manager in different companies. Recently, I became acquainted with artificial intelligence, particularly ChatGPT, which has significantly increased my learning speed and product development. Additionally, I have a strong interest in the fields of blockchain and artificial intelligence.",
   "contact_me": "Contact Me",
   "project1_title": "Project One",
   "project1_description": "Description for project one.",
@@ -73,19 +73,19 @@
   ],
   "tech_data": [
     {
-      "name": "React",
-      "description": "A JavaScript library for building user interfaces",
-      "link": "https://reactjs.org/"
+      "name": "Database",
+      "description": "MSSQL, Postgres, Redis",
+      "link": ""
     },
     {
-      "name": "Node.js",
-      "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine",
+      "name": "Backend ",
+      "description": "Node.js, Python",
       "link": "https://nodejs.org/"
     },
     {
-      "name": "GraphQL",
-      "description": "A query language for your API",
-      "link": "https://graphql.org/"
+      "name": "Data Analyse",
+      "description": "SSRS, PowerBI",
+      "link": ""
     }
   ]
 

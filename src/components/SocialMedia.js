@@ -32,7 +32,7 @@ const SocialMedia = () => {
         <IconButton color="inherit" component="a" href="https://telegram.me/kamihadad" target="_blank" style={iconStyle}>
           <FaTelegram size={iconSize} color="#0088cc" />
         </IconButton>
-        <IconButton color="inherit" component="a" href="https://wa.me/kamihadad" target="_blank" style={iconStyle}>
+        <IconButton color="inherit" component="a" href="https://wa.me/+989124718227" target="_blank" style={iconStyle}>
           <FaWhatsapp size={iconSize} color="#25D366" />
         </IconButton>
         <IconButton color="inherit" component="a" href="https://twitter.com/kamihadad" target="_blank" style={iconStyle}>

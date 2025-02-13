@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 import { Typography, Container, Grid, TextField, Button } from '@mui/material';
 import { useTranslation } from 'react-i18next';
+import emailjs from 'emailjs-com';
 import SocialMedia from '../components/SocialMedia';
 
 const Contact = () => {
@@ -14,23 +14,29 @@ const Contact = () => {
     message: '',
   });
 
-  // Google Apps Script URL
-  const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw9N6EA6W4jBFszQXuQnqgnXuc3qHe-dQsxmU0nACPAgZdjSKAuuXq-tYqouV7606xr/exec";  // لینک اسکریپت خودت را جایگزین کن
-
   // تغییر مقادیر ورودی
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  // ارسال اطلاعات به Google Forms از طریق Apps Script
+  // ارسال اطلاعات به ایمیل
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    // استفاده از EmailJS برای ارسال ایمیل
     try {
-      const response = await axios.post(GOOGLE_SCRIPT_URL, formData);
+      const response = await emailjs.send(
+        'service_hfu8eqm',    // شناسه سرویس (دریافت از EmailJS)
+        'template_fk16dep',    // شناسه الگو (دریافت از EmailJS)
+        {
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+        },
+        'ePdTcHlAQuNRufB2Q'         // شناسه کاربری (دریافت از EmailJS)
+      );
       alert("✅ پیام با موفقیت ارسال شد!");
       setFormData({ name: '', email: '', message: '' });
-
     } catch (error) {
       console.error("❌ خطا در ارسال پیام:", error);
       alert("⚠️ خطا در ارسال پیام!");

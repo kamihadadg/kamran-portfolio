@@ -31,7 +31,7 @@ const Home = () => {
           <Grid item xs={12} md={8}>
             <Typography variant="h4" gutterBottom>{t('name')}</Typography>
             <Typography variant="h6" color="textSecondary">{t('title')}</Typography>
-            <Typography variant="body1" paragraph>{t('bio')}</Typography>
+            <Typography variant="body1" style={{ fontSize: '1.001rem' }}paragraph>{t('bio')}</Typography>
             <Button variant="contained" color="primary" component={Link} to="/contact">
               {t('contact_me')}
             </Button>

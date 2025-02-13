@@ -1,44 +1,39 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import { Typography, Container, Grid, TextField, Button } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import SocialMedia from '../components/SocialMedia';
-import axios from 'axios';
 
 const Contact = () => {
   const { t, i18n } = useTranslation();
-
+  
+  // State برای ذخیره مقادیر ورودی
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    message: ''
+    message: '',
   });
 
-  const [status, setStatus] = useState('');
+  // Google Apps Script URL
+  const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw9N6EA6W4jBFszQXuQnqgnXuc3qHe-dQsxmU0nACPAgZdjSKAuuXq-tYqouV7606xr/exec";  // لینک اسکریپت خودت را جایگزین کن
 
+  // تغییر مقادیر ورودی
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value
-    });
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  // ارسال اطلاعات به Google Forms از طریق Apps Script
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Replace with your Google Apps Script URL
-    const googleScriptUrl = 'https://script.google.com/macros/s/AKfycbw2YU09f7TC4jES2VIyEHrzbXqDPMj51sJech7ZFeXE/exec';
-
     try {
-      const response = await axios.post(googleScriptUrl, formData);
-      if (response.data.result === 'success') {
-        setStatus('Message sent successfully!');
-        setFormData({ name: '', email: '', message: '' });
-      } else {
-        setStatus('There was an issue sending the message. Please try again.');
-      }
+      const response = await axios.post(GOOGLE_SCRIPT_URL, formData);
+      alert("✅ پیام با موفقیت ارسال شد!");
+      setFormData({ name: '', email: '', message: '' });
+
     } catch (error) {
-      setStatus('There was an error submitting the form.');
+      console.error("❌ خطا در ارسال پیام:", error);
+      alert("⚠️ خطا در ارسال پیام!");
     }
   };
 
@@ -55,57 +50,46 @@ const Contact = () => {
           <Grid container spacing={3} style={{ marginTop: '20px' }}>
             <Grid item xs={12} sm={6}>
               <TextField
+                name="name"
                 label={t('your_name')}
                 variant="outlined"
                 fullWidth
                 margin="normal"
-                name="name"
                 value={formData.name}
                 onChange={handleChange}
               />
             </Grid>
             <Grid item xs={12} sm={6}>
               <TextField
+                name="email"
                 label={t('your_email')}
                 variant="outlined"
                 fullWidth
                 margin="normal"
-                name="email"
                 value={formData.email}
                 onChange={handleChange}
               />
             </Grid>
             <Grid item xs={12}>
               <TextField
+                name="message"
                 label={t('message')}
                 variant="outlined"
                 fullWidth
                 multiline
                 rows={6}
                 margin="normal"
-                name="message"
                 value={formData.message}
                 onChange={handleChange}
               />
             </Grid>
             <Grid item xs={12}>
-              <Typography variant="body1">{t('my_details')}</Typography>
-              <Typography variant="body2">
-                <h3>{t('full_name')}: Kamran Hadad Marandi <br />
-                  {t('email')}: kamihadad@gmail.com <br />
-                  {t('phone')}: +98 912 471 8227
-                </h3>
-              </Typography>
-            </Grid>
-            <Grid item xs={12}>
-              <Button variant="contained" color="primary" type="submit">
+              <Button type="submit" variant="contained" color="primary">
                 {t('send_message')}
               </Button>
             </Grid>
           </Grid>
         </form>
-
-        {status && <Typography variant="body1">{status}</Typography>}
 
         <SocialMedia />
       </Container>

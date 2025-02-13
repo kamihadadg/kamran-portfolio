@@ -13,22 +13,22 @@ const Customers = () => {
     {
       name: "Mofid Leather",
       description: "A leather factory with extensive experience in producing high-quality leather.",
-      link: "/mofid-leather"
+      link: "https://arkamlc.com/"
     },
     {
       name: "Mohajer Leather",
       description: "One of the pioneers in the leather industry using modern technologies.",
-      link: "/mohajer-leather"
+      link: "https://arkamlc.com/"
     },
     {
       name: "Bank Karafarin Exchange",
       description: "A reputable exchange with excellent services in currency trading.",
-      link: "/bank-karafarin-exchange"
+      link: "https://www.middleeastbank.ir/"
     },
     {
       name: "Saye Transportation Institute",
       description: "A reputable institute in the field of transportation and goods delivery.",
-      link: "/saye-transportation"
+      link: "https://arkamlc.com/"
     }
   ];
 
@@ -49,7 +49,7 @@ const Customers = () => {
               <Paper elevation={3} style={{ padding: '20px' }}>
                 <Typography variant="h6" style={{ fontSize: '24px', fontWeight: 'bold' }}>{customer.name}</Typography>
                 <Typography variant="body1">{customer.description}</Typography>
-                <Button color="primary" component="a" href={customer.link}>
+                <Button color="primary" component="a" href={customer.link} target="_blank">
                   {t('view_customer')}
                 </Button>
               </Paper>

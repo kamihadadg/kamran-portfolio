@@ -45,20 +45,18 @@ const Home = () => {
         <Typography variant="h4" align="center" gutterBottom style={{ marginTop: '40px' }}>
           {t('technologies')}
         </Typography>
-        <Grid container spacing={3}>
+        <Grid container spacing={4}>
           {tech_data.map((tech, index) => (
-            <Grid item xs={12} md={4} key={index}>
+            <Grid item xs={12} sm={6} md={3} key={index}>
               <Paper elevation={3} style={{ padding: '20px' }}>
                 <Typography variant="h6" style={{ fontSize: '24px', fontWeight: 'bold' }}>{tech.name}</Typography>
                 <Typography variant="body1">{tech.description}</Typography>
-                <Button color="primary" component="a" href={tech.link}>
-           
-                  {t('Link')}
-                </Button>
+                
               </Paper>
             </Grid>
           ))}
         </Grid>
+
 
           <SocialMedia/>
 

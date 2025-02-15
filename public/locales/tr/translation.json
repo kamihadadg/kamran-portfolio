@@ -75,17 +75,17 @@
     },
     {
       "name": "Backend ",
-      "description": "Express.js, NestJS, FastAPI, Flask",
+      "description": "Express, NestJS, FastAPI, Flask",
       "link": "https://nodejs.org/"
     },
     {
       "name": "FrontEnd",
-      "description": "Delphi, React",
+      "description": "Delphi, React                       ",
       "link": ""
     },
     {
       "name": "Data Analyse",
-      "description": "SSRS, PowerBI",
+      "description": "SSRS, PowerBI                       ",
       "link": ""
     }
   ]

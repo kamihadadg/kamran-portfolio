@@ -75,7 +75,7 @@
     },
     {
       "name": "Backend ",
-      "description": "Node.js, Python",
+      "description": "Express.js, NestJS, FastAPI, Flask",
       "link": "https://nodejs.org/"
     },
     {

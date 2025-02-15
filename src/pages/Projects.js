@@ -11,6 +11,12 @@ const Projects = () => {
   // Sample projects in English including the Trader Bot
   const projects = [
     {
+      title: "Transport Management",
+      description: "Automation system for Transfer.",
+      link: "/Assets/Release/Transport.zip", // File link for download
+      isDownload: true // Adding a flag to differentiate downloadable content
+    },
+    {
       title: "Leather Factory Automation",
       description: "Automation system for leather manufacturing factories.",
       link: "/leather-factory-automation"
@@ -75,15 +81,28 @@ const Projects = () => {
 
                 <Typography variant="body1" style={{ marginTop: '10px' }}>{project.description}</Typography>
                 <Box mt={2}>
-                  <Button
-                    color="primary"
-                    component={Link}
-                    to={project.link}
-                    variant="contained"
-                    style={{ textTransform: 'none' }}
-                  >
-                    {t('view_project')}
-                  </Button>
+                  {project.isDownload ? (
+                    <Button
+                      color="primary"
+                      component="a"
+                      href={project.link}
+                      download
+                      variant="contained"
+                      style={{ textTransform: 'none' }}
+                    >
+                      {t('download_project')}
+                    </Button>
+                  ) : (
+                    <Button
+                      color="primary"
+                      component={Link}
+                      to={project.link}
+                      variant="contained"
+                      style={{ textTransform: 'none' }}
+                    >
+                      {t('view_project')}
+                    </Button>
+                  )}
                 </Box>
               </Paper>
             </Grid>

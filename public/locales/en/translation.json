@@ -74,13 +74,18 @@
   "tech_data": [
     {
       "name": "Database",
-      "description": "MSSQL, Postgres, Redis",
+      "description": "MSSQL, Postgres, Redis, MongoDB",
       "link": ""
     },
     {
       "name": "Backend ",
       "description": "Node.js, Python",
       "link": "https://nodejs.org/"
+    },
+    {
+      "name": "FrontEnd",
+      "description": "Delphi, React",
+      "link": ""
     },
     {
       "name": "Data Analyse",

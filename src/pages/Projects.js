@@ -11,7 +11,7 @@ const Projects = () => {
   // Sample projects in English including the Trader Bot
   const projects = [
     {
-      title: "Trader Bot",
+      title: "Advanced Crypto Trading ",
       description: "Automated trading bot for digital asset management and investment strategies.",
       link: "https://kmsar.shop/"
     },

@@ -17,7 +17,7 @@ const Projects = () => {
     },
     {
       title: "Transport Management",
-      description: "Automation system for Transfer.",
+      description: "Automation system for Transfer like iranian car agency.",
       link: "/Assets/Release/Transport.zip", // File link for download
       isDownload: true // Adding a flag to differentiate downloadable content
     },

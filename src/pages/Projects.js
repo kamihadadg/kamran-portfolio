@@ -26,12 +26,7 @@ const Projects = () => {
       description: "Automation system for leather manufacturing factories.",
       link: "/leather-factory-automation"
     },
-    
-    {
-      title: "Distribution Network",
-      description: "System for managing and optimizing distribution networks.",
-      link: "/distribution-network"
-    },
+
     {
       title: "Accounting System",
       description: "Comprehensive accounting system for businesses.",

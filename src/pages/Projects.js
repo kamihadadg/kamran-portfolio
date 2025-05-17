@@ -26,11 +26,7 @@ const Projects = () => {
       description: "Automation system for leather manufacturing factories.",
       link: "/leather-factory-automation"
     },
-    {
-      title: "Currency Exchange Voucher Management",
-      description: "System for managing currency exchange vouchers.",
-      link: "/currency-exchange-voucher-management"
-    },
+    
     {
       title: "Distribution Network",
       description: "System for managing and optimizing distribution networks.",

@@ -49,7 +49,7 @@ const Projects = () => {
     {
       title: "Trader Bot",
       description: "Automated trading bot for digital asset management and investment strategies.",
-      link: "/trader-bot"
+      link: "https://kmsar.shop/"
     }
   ];
 

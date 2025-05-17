@@ -95,13 +95,15 @@ const Projects = () => {
                   ) : (
                     <Button
                       color="primary"
-                      component={Link}
-                      to={project.link}
+                      component="a"
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       variant="contained"
                       style={{ textTransform: 'none' }}
                     >
-                      {t('view_project')}
-                    </Button>
+                    {t('view_project')}
+                  </Button>
                   )}
                 </Box>
               </Paper>

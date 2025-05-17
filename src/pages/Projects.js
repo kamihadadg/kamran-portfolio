@@ -11,6 +11,11 @@ const Projects = () => {
   // Sample projects in English including the Trader Bot
   const projects = [
     {
+      title: "Trader Bot",
+      description: "Automated trading bot for digital asset management and investment strategies.",
+      link: "https://kmsar.shop/"
+    },
+    {
       title: "Transport Management",
       description: "Automation system for Transfer.",
       link: "/Assets/Release/Transport.zip", // File link for download
@@ -45,11 +50,6 @@ const Projects = () => {
       title: "Inventory Management",
       description: "System for efficient inventory management.",
       link: "/inventory-management"
-    },
-    {
-      title: "Trader Bot",
-      description: "Automated trading bot for digital asset management and investment strategies.",
-      link: "https://kmsar.shop/"
     }
   ];
 
